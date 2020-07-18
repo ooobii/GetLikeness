@@ -6,13 +6,13 @@ In Excel, sometimes you need to determine exact equality between two strings. Th
 Excel only supports direct equality tests, resulting in TRUE or FALSE values. This library allows you to return a percentage value calculated based on similar characters and concurant character patterns seen within the test subjects.
 
 
-## How do you use this script in your workbooks?
+## How do you install this script?
 1) You first have to enable the 'Developer' tab in Excel by going to File > Options > Customize Ribbon, and checking the box on the right labeled 'Developer'. 
 2) Once enabled, navigate back to the primary Excel window, go to the Ribbon, select 'Developer', and click on the 'Visual Basic' button (first button from left).
 3) Inside the 'Microsoft Visual Basic for Applications' window that appears, go to File > Import File... (or press CTRL + M while the window is in focus). 
 4) Browse to the .bas file to load the module into the workbook. After you see the module in the 'Project' treeview on the right inside the 'Modules' folder, you're good to go!
 
-## What do the results look like?
+## How do you use it, and what does the result look like?
 Once the module is placed within your file (or, placed inside your NORMAL template), you can call `=GETLIKENESS(Input1, Input2)` to run the comparison and return the result (for one string to one string comparison):
 
 ![Figure1](https://i.imgur.com/L9aYj1H.png)
